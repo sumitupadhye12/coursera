@@ -1,0 +1,7 @@
+body{
+	background-image: url("../../media/background.jpg");
+	/*width: 200px; height: 100px;*/
+	background-position: top; /* Make the background image cover the area of the <div>, and clip the excess */
+	 background-size: cover;
+	/*background-color: black;*/
+}
