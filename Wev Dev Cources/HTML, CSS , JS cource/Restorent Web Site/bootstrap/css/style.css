@@ -1,7 +1,82 @@
+@media (max-width:768px) {
+	#navbar{
+		height: 80px;
+	}
+	#nav-list{
+		clear: both;
+	}
+
+
+}
+
+@media (min-width:768px) {
+	#header-nav{
+		height: 120px !important;
+	}
+}
+
+
+
 body{
-	background-image: url("../../media/background.jpg");
-	/*width: 200px; height: 100px;*/
-	background-position: top; /* Make the background image cover the area of the <div>, and clip the excess */
-	 background-size: cover;
-	/*background-color: black;*/
+
+	background-color: #C1EDE8;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+li{
+	text-align: center;
+}
+li:hover
+{
+	background-color: white;
+	border-width: 1px;
+	border-radius: 4px;
+}
+
+#header-nav{
+	background-color:#FFA9AD;
+
+}
+#logo-img{
+	background: url("../../media/images/restaurant-logo_medium.png") no-repeat;
+	width: 100px;
+	height: 150px;
+	margin: 10px 15px 10px 10px;
+
+}
+
+
+
+
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: "Lora", serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	}
+.navbar-brand p span {
+	color: #000;
+	vertical-align: middle;
+	font-size: .7em;
+	font-family: Oxygen;
+	margin-top: 15px;
+}
+
+.nav-items{
+	margin: 0 10px 10px 0;
 }
