@@ -1,82 +1,57 @@
-@media (max-width:768px) {
-	#navbar{
-		height: 80px;
-	}
-	#nav-list{
-		clear: both;
-	}
-
-
-}
-
-@media (min-width:768px) {
-	#header-nav{
-		height: 120px !important;
-	}
-}
-
-
-
 body{
-
-	background-color: #C1EDE8;
-	font-size: 16px;
-	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	font-family: Oxygen;
 }
-li{
+img{
+	margin: 10px 10px 10px 10px ;
+}
+
+.fixed-top{
+	margin-bottom: 100px;
+	/* padding-bottom: 100px; */
+}
+
+@media(min-width:990px){
+.float-right{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin-top: 35px;
+}
+}
+
+@media (max-width:989px) {
+.navbar-brand{
+	align-items: left;
+}
+#navbarSupportedContent{
+	margin-right: 45%;
 	text-align: center;
 }
-li:hover
-{
-	background-color: white;
-	border-width: 1px;
-	border-radius: 4px;
 }
-
-#header-nav{
-	background-color:#FFA9AD;
-
-}
-#logo-img{
-	background: url("../../media/images/restaurant-logo_medium.png") no-repeat;
-	width: 100px;
-	height: 150px;
-	margin: 10px 15px 10px 10px;
-
-}
-
-
-
-
-
 .navbar-brand{
-	padding-top: 25px;
-}
-
-.navbar-brand h1{
-	font-family: "Lora", serif;
-	color: #557c3e;
-	font-size: 1.5em;
-	text-transform: uppercase;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: .75;
+	font-size: 1.3em;
+}
+#nav-list{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.jumbotron img{
+	margin: 0 10px 0 0 ;
 }
 
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-	text-decoration: none;
-	}
-.navbar-brand p span {
-	color: #000;
-	vertical-align: middle;
-	font-size: .7em;
-	font-family: Oxygen;
-	margin-top: 15px;
+.center{
+	align-items: center;
+	align-self: center;
+	text-align: center;
 }
-
-.nav-items{
-	margin: 0 10px 10px 0;
+.card{
+	width: 20rem;
+}
+.card-img-top{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0 ;
 }
