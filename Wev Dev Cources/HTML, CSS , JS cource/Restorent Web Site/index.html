@@ -15,65 +15,76 @@
 
 
 <header>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<img src="./media/images/restaurant-logo_medium.png" alt="logo image" class="d-none d-md-block"/>
-	  <a class="navbar-brand"  href="#">David Chu's China Bistro</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="nav navbar-nav float-right " id ="nav-list">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Link</a>
-	      </li>
-	    </ul>
-	</div>
+	<nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+			<div class="container">
+				<img src="./media/images/restaurant-logo_medium.png" alt="logo image" class="d-none d-md-block"/>
+			  <a class="navbar-brand"  href="#">David Chu's China Bistro</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="nav navbar-nav float-right " id ="nav-list">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Menu</a>
+			      </li>
+			    </ul>
+			</div>
+		</div>
 	</nav>
 </header>
 
 
-
-<div class="jumbotron">
-	<img src="./media/images/jumbotron_768.jpg" alt="ash" class="img-fluid d-sm-block d-md-none">
-	<img src="./media/images/jumbotron_992.jpg" alt="ash" class="img-fluid d-none d-md-block d-lg-none">
-	<img src="./media/images/jumbotron_1200.jpg" alt="ash" class="img-fluid d-none d-lg-block">
-
+<div class="container">
+	<div class="jumbotron">
+		<img src="./media/images/jumbotron_768.jpg" alt="restro image" class="img-fluid invisible-img">
+	</div>
 </div>
 
-<div class="container-fluid  " >
+<div class="container" >
 	<div class="row">
-		<div class="card col-4 col-sm-4 col-md-3 col-lg-3" id="menue-card">
-		  <img src="https://restaurantden.com/wp-content/uploads/2017/09/pixabay.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-		    <h5 class="card-title">Menue</h5>
-		  </div>
+		<div class="col-12 col-sm-6 col-md-6 col-lg-3 tile" id="menue-tile" >
+			<span>Menue</span>
 		</div>
 
-		<div class="card col-4 col-sm-4 col-md-3 col-lg-3">
-		  <img src="https://restaurantden.com/wp-content/uploads/2017/09/pixabay.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-		    <h5 class="card-title">Specials</h5>
-		  </div>
+		<div class="col-12 col-sm-6 col-md-6 col-lg-3 tile" id="specials-tile" >
+			<span>Specials</span>
 		</div>
-		<div class="card  col-4 col-sm-4 col-md-3 col-lg-3">
-		  <img src="https://restaurantden.com/wp-content/uploads/2017/09/pixabay.jpg" class="card-img-top" alt="...">
-		  <div class="card-body">
-		    <h5 class="card-title">Map</h5>
-		  </div>
+		<div class="col-12 col-sm-12 col-md-12 col-lg-3 tile" id="map-tile" style="width:50%">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30703106.29150179!2d64.43913872316905!3d20.053048728922782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1586169723857!5m2!1sen!2sin" width="100%" height="100%" frameborder="1"  allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+			<span>Map</span>
 		</div>
 	</div>
 </div>
 
-<div style="clear:both;"></div>
-<footer>
-	<nav class="navbar navbar-light bg-light">
+<div style="clear:both; margin:10px"></div>
+<footer id="footer" class="page-footer blue">
 
-	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 text-center">
+				<a href="">Working Hours <br></a>
+				Sun-Thurs: 11:15am - 10:00pm<br>
+				Fri: 11:15am - 2:30pm<br>
+				Saturday Closed
+
+			</div>
+			<div class="col-sm-4 text-center">
+				<a href=""> Address <br></a>
+				7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+			</div>
+			<div class="col-sm-4 text-center">
+				<a href="">Testimonials</a>
+				<p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+		 <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+			</div>
+	</div>
+</div>
 </footer>
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -1,6 +1,12 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	text-align: center;
 	font-family: Oxygen;
+	background-color: #400200;
+	/* margin-bottom: 20px; */
 }
 img{
 	margin: 10px 10px 10px 10px ;
@@ -11,27 +17,12 @@ img{
 	/* padding-bottom: 100px; */
 }
 
-@media(min-width:990px){
-#nav-list{
-	position: absolute;
-	right: 10px;
-	top: 0px;
-	margin-top: 35px;
-}
-/* .container,
-.container-fluid{
-	width: 1200px;
-} */
-
-#menue-card{
-
-}
-}
-
-
-
-
 @media (max-width:989px) {
+
+
+}
+
+@media(max-width:767px){
 	.navbar-brand{
 		align-items: left;
 	}
@@ -39,10 +30,136 @@ img{
 		margin-right: 45%;
 		text-align: center;
 	}
+	.jumbotron{
+		border-style: solid;
+		border-color: #400200;
+		/* border-width: 10px; */
+		padding: 0;
+		margin: 20px 0 20px 0 ;
 
+	}
+}
 
+@media (min-width:768px) and (max-width:991px){
+	.navbar-brand{
+		align-items: left;
+	}
+	#navbarSupportedContent{
+		margin-right: 45%;
+		text-align: center;
+	}
+	.jumbotron{
+		border-style: solid;
+		border-color: #400200;
+		/* border-width: 10px; */
+		padding: 0;
+		margin: 20px 0 20px 0 ;
+		margin: 0;
+
+	}
+	 .navbar-brand{
+		align-items: left;
+	}
+	#nav-list{
+		position: absolute;
+		right: 80px;
+		top: 0px;
+		margin-top: 35px;
+	}
+	.jumbotron{
+		height: 500px;
+		border-style: solid;
+		border-color: #400200;
+		/* border-width: 10px; */
+		background: url("./../../media/images/jumbotron_992.jpg") no-repeat;
+
+	}
+	.navbar-brand{
+		align-items: left;
+	}
+	#navbarSupportedContent{
+		margin-right: 45%;
+		text-align: center;
+	}
+	.jumbotron{
+		border-style: solid;
+		border-color: #400200;
+		/* border-width: 10px; */
+		padding: 0;
+		margin: 20px 0 20px 0 ;
+
+	}
 
 }
+
+@media (min-width:992px) {
+	.navbar-brand{
+	 align-items: left;
+ }
+ #nav-list{
+	 position: absolute;
+	 right: 80px;
+	 top: 0px;
+	 margin-top: 35px;
+ }
+ .jumbotron{
+	 height: 600px;
+	 border-style: solid;
+	 border-color: #400200;
+	 /* border-width: 10px; */
+	 background: url("./../../media/images/jumbotron_1200.jpg") no-repeat;
+	 background-position: center;
+
+ }
+ #menue-tile{
+	 margin-left:15px;
+ }
+ .invisible-img{
+	 display: none;
+	 visibility: hidden;
+ }
+}
+
+
+
+.tile{
+
+	margin-left: auto;
+	/* margin-left: 10%; */
+	height: 250px;
+	border-color: gray;
+	border-width: 3px;
+	width: 100%;
+	border-style: solid;
+	padding: 0px;
+
+	/* background-color: black; */
+	background: url("https://restaurantden.com/wp-content/uploads/2017/09/pixabay.jpg") no-repeat;
+	background-position: center;
+	position: relative;
+
+}
+
+
+#map-frame{
+	border:0;
+}
+.tile span{
+
+	position: absolute;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	right:0;
+	background-color: black;
+	opacity: 0.6;
+}
+
+
+
+
 .navbar-brand{
 	font-weight: bold;
 	font-size: 1.3em;
@@ -51,46 +168,13 @@ img{
 	font-weight: bold;
 	font-size: 1.2em;
 }
+#navbar{
+	background-color: yellow;
+}
+#footer{
+	background-color: yellow;
+}
 
 .jumbotron img{
 	margin: 0 10px 0 0 ;
-}
-
-/* When you add float to an element you're taking out of the natural flow of the document. */
-
-/* You will need to add some sort of clearfix to the wrapper of the floated items. */
-/* to put content inside the container */
-.clearfix:before,
-.clearfix:after {
-    content: "";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-.center{
-	align-items: center;
-	align-self: center;
-	text-align: center;
-}
-
-
-.card{
-	width: 20rem;
-	/* height: 300px; */
-	/* margin-right: 20px; */
-}
-
-/* .container-fluid{
-	align-items: center;
-	align-content: center;
-	display: inline-block;
-	/* background: red; */
-
-} */
-.card-img-top{
-	height: 200px;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0 ;
 }
