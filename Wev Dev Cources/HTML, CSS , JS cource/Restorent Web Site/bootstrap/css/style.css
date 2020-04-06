@@ -12,22 +12,36 @@ img{
 }
 
 @media(min-width:990px){
-.float-right{
+#nav-list{
 	position: absolute;
-	right: 0px;
+	right: 10px;
 	top: 0px;
 	margin-top: 35px;
 }
+/* .container,
+.container-fluid{
+	width: 1200px;
+} */
+
+#menue-card{
+
+}
 }
 
+
+
+
 @media (max-width:989px) {
-.navbar-brand{
-	align-items: left;
-}
-#navbarSupportedContent{
-	margin-right: 45%;
-	text-align: center;
-}
+	.navbar-brand{
+		align-items: left;
+	}
+	#navbarSupportedContent{
+		margin-right: 45%;
+		text-align: center;
+	}
+
+
+
 }
 .navbar-brand{
 	font-weight: bold;
@@ -42,16 +56,41 @@ img{
 	margin: 0 10px 0 0 ;
 }
 
+/* When you add float to an element you're taking out of the natural flow of the document. */
 
+/* You will need to add some sort of clearfix to the wrapper of the floated items. */
+/* to put content inside the container */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
 .center{
 	align-items: center;
 	align-self: center;
 	text-align: center;
 }
+
+
 .card{
 	width: 20rem;
+	/* height: 300px; */
+	/* margin-right: 20px; */
 }
+
+/* .container-fluid{
+	align-items: center;
+	align-content: center;
+	display: inline-block;
+	/* background: red; */
+
+} */
 .card-img-top{
+	height: 200px;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0 ;
 }
